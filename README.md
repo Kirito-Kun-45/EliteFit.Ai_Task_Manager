@@ -1,13 +1,16 @@
 # Task Manager
 
-A high-performance task management application built with React, featuring an intuitive UI, dynamic animations, and smooth interactions. The app provides offline support through localStorage and includes both Kanban board and list views for efficient task organization.
+This is the screening task for EliteFit.Ai
+
+A high-performance task management application built with React, featuring an intuitive UI, dynamic animations, and smooth interactions. The app provides offline support through localStorage and list views for efficient task organization.
+
+This app has been deployed on vercel, you can check it out [here](https://task-manager-elitefit-ai.netlify.app/)
 
 ## Features
 
 ### 🎯 Core Functionality
 - **Dual View System**: Toggle between Kanban board and list views
 - **Task Management**: Create, edit, delete, and complete tasks
-- **Drag & Drop**: Intuitive task organization across status columns
 - **Priority Levels**: Categorize tasks as High, Medium, or Low
 - **Smart Filtering**: Search and filter tasks by priority
 - **Dark Mode**: Toggle between light and dark themes
@@ -25,7 +28,6 @@ A high-performance task management application built with React, featuring an in
 - **React**: Frontend framework
 - **Tailwind CSS**: Styling and dark mode
 - **Framer Motion**: Animations
-- **React Beautiful DND**: Drag and drop functionality
 - **Hero Icons**: UI icons
 - **LocalStorage**: Offline data persistence
 - **Date-fns**: Date formatting
@@ -34,7 +36,7 @@ A high-performance task management application built with React, featuring an in
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/task-manager.git
+   git clone https://github.com/Kirito-Kun-45/EliteFit.Ai_Task_Manager.git
    ```
 
 2. Install dependencies:
@@ -81,26 +83,3 @@ src/
 ├── App.jsx              # Main application component
 └── main.jsx            # Application entry point
 ```
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- [Vite](https://vitejs.dev/) for the build tooling
-- [Tailwind CSS](https://tailwindcss.com/) for the styling system
-- [Framer Motion](https://www.framer.com/motion/) for animations
-- [Hero Icons](https://heroicons.com/) for the beautiful icons
-
----
-
-Made with ❤️ by [Your Name]
